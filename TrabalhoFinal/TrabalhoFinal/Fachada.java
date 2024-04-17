@@ -40,6 +40,7 @@ public class Fachada {
         Obs g = new Garcom();
         for (int i = 0; i < clientes.size(); i++) {
             addObserver(g);
+            total = 0.0;
             System.out.println("--------------------");
             Cliente cliente = clientes.get(i);
             List<Integer> pedidos = cliente.getPedidos();
