@@ -58,7 +58,7 @@ public class Fachada {
                     d.adicionais();
                 }
                 h.preparar();
-                //total += h.getPreco();
+                total += h.getPreco();
             }
             notifyObserver();
             removeObserver(g);
